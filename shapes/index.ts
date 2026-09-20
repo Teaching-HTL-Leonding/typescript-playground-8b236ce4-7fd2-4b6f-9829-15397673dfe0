@@ -12,7 +12,7 @@ function setup() {
 //Draw a line
 line(50,100, 500, 10)
 //Draw a rectangle
-rect(20,40,150,20)
+rect(30,40,200,30)
 
 
 

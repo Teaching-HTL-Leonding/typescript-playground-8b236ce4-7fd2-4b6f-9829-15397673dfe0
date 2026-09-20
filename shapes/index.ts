@@ -1,16 +1,24 @@
 function setup() {
-//crate the canvas ("German Leinwand")
-//Parameters are width and height
-createCanvas(400, 500);
-//Set background colur("orange");
-//Set a line colur and thickness (=weight)
-stroke ("blue");
-strokeWeight (10);
-//fill colur
-fill("yellow");
-//Draw a line (20, 40, 360, 20);
-//Draw a rectangle
-rect(20, 40, 360, 20 );
+    //Create the canvas
+    //Parameters are width and height
+    createCanvas(600, 800);
+    //Set background colur
+    background("gray");
+    //Set line colur and thicknes (=weight);
+    stroke("orange");
+    //stroneweight(10);
+    //Fill colur
+    fill("red");
+
+
+
+
+
+
+
+
+
+
 
 
 

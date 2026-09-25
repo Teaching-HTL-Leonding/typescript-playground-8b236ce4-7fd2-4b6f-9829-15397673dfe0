@@ -1,8 +1,12 @@
 function setup() {
-    createCanvas(605,470);
+    createCanvas(600,470);
     background("blue");
 stroke("Red");
-strokeWeight(40);
+strokeWeight(500);
+strokeCap(SQUARE);
+line(50,430,350,430)
+
+
 
 
 

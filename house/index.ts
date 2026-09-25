@@ -1,7 +1,8 @@
 function setup() {
-    createCanvas(500,600);
+    createCanvas(605,470);
     background("blue");
-stroke("Red")
+stroke("Red");
+strokeWeight(40);
 
 
 

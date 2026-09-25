@@ -15,8 +15,8 @@ rect(175,400,50,100);
 fill("brown");
 noStroke();
 rect(450,300,50,200);
-fill("green")
-circle(470,250,100)
+fill("green");
+circle(470,270,100);
 
 
 

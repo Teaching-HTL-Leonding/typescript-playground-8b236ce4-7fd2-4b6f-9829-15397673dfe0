@@ -8,9 +8,10 @@ line(400,350,350,300);
 fill("black");
 circle(250,200,20);
 circle(350,200,20);
-fill("gray");
+fill("gray");  
 triangle(200,150,150,200,100,100);
-fill()
+fill("gray");
+triangle(400,150,300,100,200,100)
 
 
 

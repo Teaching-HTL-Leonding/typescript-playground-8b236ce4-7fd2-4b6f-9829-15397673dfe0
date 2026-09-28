@@ -10,6 +10,7 @@ circle(250,200,20);
 circle(350,200,20);
 fill("gray")
 triangle(200,150,150,200,100,100)
+fill()
 
 
 

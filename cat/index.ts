@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(600,450);
-background("blue");
-fill("gray");
+background("blue")
+fill("gray")
 circle(300,270,300);
 line(200,350,250,300);
 line(400,350,350,300);
@@ -11,12 +11,16 @@ circle(350,200,20);
 fill("gray");  
 triangle(200,150,150,200,100,100);
 fill("gray");
-triangle(450,200,400,150,500,100)
-fill("pink")
-triangle(280,300,320,300,300,250)
-line(300,300,300,350)
-line(300,350,340,330)
-
+triangle(450,200,400,150,500,100);
+fill("pink");
+triangle(280,300,320,300,300,250);
+line(300,300,300,350);
+line(300,350,340,330);
+line(340,330,370,350);
+line(300,350,260,330);
+line(260,330,230,350);
+line(250,280,200,320);
+line(350,280,400,320);
 
 
 

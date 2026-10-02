@@ -7,13 +7,13 @@ function setup() {
     circle(90,90,150);
   strokeWeight(10);
    stroke("yellow");
-  circle(170,170,150);
+  circle(180,180,150);
   stroke("black");
-  circle(260,90,150);
+  circle(270,90,150);
   stroke("green");
-  circle(350,180,150);
+  circle(360,180,150);
   stroke("red");
-  circle(440,90,150);
+  circle(450,90,150);
 
   
 

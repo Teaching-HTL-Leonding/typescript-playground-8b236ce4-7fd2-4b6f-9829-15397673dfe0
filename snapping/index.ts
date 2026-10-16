@@ -11,7 +11,10 @@ function mouseMoved() {
 
 
 const x:number= round(mouseX/snap)*snap;
+//67
 const y:number= round(mouseY/snap)*snap;
+//kill67
+
 line(x-snap,y,x+snap,y);
 line(x,y-snap,x,y+snap);
 text("67",315,245)

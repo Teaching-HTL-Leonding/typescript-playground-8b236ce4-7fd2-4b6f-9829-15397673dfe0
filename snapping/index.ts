@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 500);
   background("lightblue");
 }
 
@@ -9,10 +9,12 @@ function mouseMoved() {
 //67
   background("lightblue");
 
-line(mouseX-snap,mouseY,mouseX+snap,mouseY);
-line(mouseX,mouseY-snap,mouseX,mouseY+snap);
+
 const x:number= round(mouseX/snap)*snap;
 const y:number= round(mouseY/snap)*snap;
+line(x-snap,y,x+snap,y);
+line(x,y-snap,x,y+snap);
+text("67",300,225)
 
 
 

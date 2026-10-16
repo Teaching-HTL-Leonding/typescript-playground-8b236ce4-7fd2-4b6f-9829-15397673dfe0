@@ -14,7 +14,7 @@ const x:number= round(mouseX/snap)*snap;
 const y:number= round(mouseY/snap)*snap;
 line(x-snap,y,x+snap,y);
 line(x,y-snap,x,y+snap);
-text("67",300,225)
+text("67",315,245)
 
 
 

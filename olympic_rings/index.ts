@@ -1,4 +1,5 @@
 function setup() {
+
   createCanvas(530,280);
     background("white");
     noFill();
@@ -14,28 +15,20 @@ function setup() {
   circle(360,180,150);
   stroke("red");
   circle(450,90,150);
-
+angleMode(DEGREES);
+ stroke("blue");
+  arc(90,90,150,150,0,30);
+  stroke("yellow");
+  arc(180,180,150,150,270,300);
+  stroke("black")
+  arc(270,90,150,150,0,30);
+  stroke("green");
+  arc(360,180,150,150,270,90);
   
-
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+  
+  
+  
+  
+  }
+ 

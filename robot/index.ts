@@ -1,17 +1,16 @@
-function setup() {
+function setup()   function setup() {
     createCanvas(400,400);
     background("gray");
 
-rect(100,100,width *0.5, height *0.5,);
-translate(100,100);
+rect(width/4,height/4,width *0.5, height *0.5,);
 fill("black");
-circle(width/2-width/8,height/8,40);
-circle(width/8,height/8,40);
-rect(width/8,height/2*0.7,width/4,height/20);
+
+
+rect(width*0.5-width/8,height*0.75-height/10,width/4,width/20);
+line(100,0,100,-50);
+circle(width*0.75-width/8,height/8+height/4,width/);
+circle(width/8+width/4,height/8+height/4,width/10);
+
 line(width/4,0,width/4,-width/8);
 fill("white");
-circle(width/4,-height/8,20);
-
-
-
-}
+circle(100,-60,20);}

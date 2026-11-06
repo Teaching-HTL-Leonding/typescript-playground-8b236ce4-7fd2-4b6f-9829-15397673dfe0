@@ -19,7 +19,7 @@ function mouseMoved() {
   fill("lightblue");
   rect(width*0.3,height*0.3,width*0.4,height*0.4);
   fill("white");
-  circle(width/2,height*0.5,height*0.4);
+  circle(width/2,height*0.5,smallerSide*0.4);
 fill("tomato")
 circle(mouseX,mouseY,smallerSide/10);
 

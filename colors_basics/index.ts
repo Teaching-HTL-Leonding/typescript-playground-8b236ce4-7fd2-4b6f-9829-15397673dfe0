@@ -3,4 +3,6 @@ function setup() {
   
 colorMode(RGB);
 background(217,187,11);
+colorMode(HSB);
+background(60,90,70);
 }

@@ -11,11 +11,11 @@ function mouseMoved() {
 }
 
 
-let colorHue: number = min(360, mouseX);
-const colorSoturationc: number = min(100, mouseY);
+let colorHue: number =0
+let colorSaturation: number = 0
 function mouseClicked() {
     fill(mouseX, mouseY, width);
     rect(0, height / 2, width, height / 2)
     fill(0);
-    text("H: 208, S: 92, B: 100", 0, height * 0.9);
+    text(`H: ${mouseX}, S: ${mouseY}, B: 100`, 5, height - 5);
 }

@@ -13,6 +13,6 @@ function mouseClicked() {
 
    colorMode(HSB)
   fill(67,100,70);
- clickPositions = `${clickPositions}, ${mouseX}/${mouseY}`;
+ clickPositions =` ${clickPositions}, ${mouseX}/${mouseY}`;
   circle(mouseX,mouseY,20);
 text(clickPositions,5,5,-10-10);}

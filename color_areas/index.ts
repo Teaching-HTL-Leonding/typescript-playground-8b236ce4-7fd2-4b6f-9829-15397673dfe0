@@ -32,7 +32,7 @@ function mouseClicked() {
     else if (mouseX <= width * 2 / 3) { message = "lightblue"; }
     else { message = "green"; }
     fill("black");
-    text(message, mouseX, mouseY);
+    text(message,width*0.3 ,height*0.9);
 
 
 

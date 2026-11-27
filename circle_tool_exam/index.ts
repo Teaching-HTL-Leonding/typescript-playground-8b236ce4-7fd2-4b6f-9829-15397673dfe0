@@ -8,7 +8,7 @@ function mouseMoved() {
     noFill();
     background("black");
     stroke("white");
-rect(abs(-height*0.5),abs(-height*0.25),mouseX,mouseY)
+rect(abs(width*0.25),abs(height/4),mouseX,mouseY)
 }
 
 

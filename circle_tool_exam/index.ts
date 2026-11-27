@@ -9,7 +9,7 @@ function mouseMoved() {
   noFill();
   stroke("white");
  
-  ellipse(width/2,height/2,mouseX,mouseY);
+  ellipse(abs(width/2),abs(height/2),mouseX,mouseY);
 }
 
 function mouseClicked( ){

@@ -3,25 +3,17 @@ function setup() {
     background("black");
     angleMode(DEGREES);
 }
-
 function mouseMoved() {
-  background("black");
-  noFill();
-  stroke("white");
- 
-  ellipse(abs(width/2),abs(height/2),mouseX,mouseY);
-}
 
-function mouseClicked( ){
-fill("white")
-text(`area:${mouseX},${mouseY}`,0,height*0.9);
+    noFill();
+    background("black");
+    stroke("white");
+rect(abs(-height*0.5),abs(-height*0.25),mouseX,mouseY)
 }
 
 
+function mouseClicked() {
+    text(`area:${mouseX},${mouseY}`,0,height*0.9);}
 
 
 
-
-
-
-//text(`H: ${mouseX}, S: ${mouseY}, B: 100`, 5, height - 5);

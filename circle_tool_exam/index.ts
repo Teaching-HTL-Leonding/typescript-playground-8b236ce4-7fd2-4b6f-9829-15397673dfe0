@@ -13,7 +13,7 @@ function mouseMoved() {
 
 function mouseClicked( ){
 fill("white")
-text(`area:${mouseX},${mouseY}`,width*0.1,height*0.9);
+text(`area:${mouseX},${mouseY}`,0,height*0.9);
 }
 
 

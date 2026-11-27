@@ -7,7 +7,8 @@ function setup() {
 function mouseMoved() {
   background("black");
   noFill();
-  stroke("white")
+  stroke("white");
+ 
   ellipse(width/2,height/2,mouseX,mouseY);
 }
 
